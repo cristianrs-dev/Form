@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="topo">
+        <div class="plano" >
+            <h1 id="title">Pesquisa Institucional</h1>
+             <p id="description"> <i>Obrigado por reservar um tempo para nos ajudar a melhorar a plataforma</i> </p>
+            <form id="survey-form" action="#">
+                <fieldset>
+                    <label  id="name-label" for="name">Nome</label>
+                    <input type="text" id="name" placeholder="Digite seu nome" required>
+                    <label id="email-label" for="email">E-mail</label>
+                    <input type="email" id="email"  placeholder="Digite seu e-mail" required>
+                    <label  id="number-label" for="number">Número</label>
+                    <input type="number" id="number" min="5" max="8" placeholder="Digite seu número" required>
+                    <label for="profile">Qual opção descreve melhor sua função atual?</label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="">Selecione sua função atual</option>
+                        <option value="1">Student</option>
+                        <option value="2">Full time job</option>
+                        <option value="3">Prefer not to say</option>
+                        <option value="4">Other</option>
+                    </select>
+                    <fieldset>
+                        <label for="recommend">Você Recomendaria nossa Plataforma?</label>
+                        <label id="radio-label" for="yes"><input value="yes" class="inline" type="radio" name="recommend" checked>Yes</label>
+                        <label id="radio-label" for="no"><input value="no" class="inline" type="radio" name="recommend">No</label>
+                    </fieldset>
+                    <fieldset>
+                        <survey-form>
+                            
+                            <label for="recommends">O que você gostaria que melhorasse?</label>
+                            <label for=""><input value="1" type="checkbox" class="inline">Aulas</label>
+                            <label for=""><input value="2" type="checkbox" class="inline">Projetos</label>
+                            <label for="text">Deixe seu comentário ou sujestão</label>
+                            <textarea name="texto" id="texto" cols="30" rows="3"></textarea>
+                            <input type="submit" id="submit" value="Enviar" name="submit">
+                        </survey-form>
+                    </fieldset>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+        <footer>
+            <div class="footer-container">
+              <div class="footer-about">
+                <h3>Sobre</h3>
+                <p>
+                  Cristian Ramos possui formação como técnico em desenvolvimento de
+                  sistemas pelo Senac - RS, analista de sistemas pelo Centro Universitário
+                  Unifavip, atua como freelancer desde 2019, é professor de informática,
+                  consultor, fundador da Coders Academy
+                </p>
+              </div>
+              <div class="footer-contact">
+                <h3>Contato</h3>
+                <p>Email: professorcristianramos@gmail.com</p>
+                <p>Telefone: (92) 99459-2304 / 98133-6790</p>
+              </div>
+              <div class="footer-social">
+                <h3>Siga-nos</h3>
+                <a href="https://www.instagram.com/coders.cademy/">
+                  <img
+                    alt="Instagram"
+                    src="img/instagram.png"
+                  />
+                </a>
+                <a href="https://www.instagram.com/coders.cademy/">
+                  <img
+                    alt="github"
+                    src="img/github.png"
+                  />
+                </a>
+                <a href="https://wa.me/5592981336790?text=">
+                  <img
+                    alt="whatsapp"
+                    src="img/whatsapp1.png"
+                  />
+                </a>
+                <a href="https://www.linkedin.com/in/cristianrds/">
+                  <img
+                    alt="LinkedIn"
+                    src="img/linkedin.png"
+                  />
+                </a>
+              </div>
+              <div class="box-btnTopo">
+                <a href="#topo">
+                  <img
+                    alt="de_volta_ao_topo"
+                    src="img/de-volta-ao-topo.png"
+                    class="btnTopo"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>© 2020 Coders Academy. Todos os direitos reservados.</p>
+            </div>
+          </footer>
+    
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
