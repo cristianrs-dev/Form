@@ -8,7 +8,7 @@ a{
 
 body{
     position: relative;
-    background-image: url("/img/estudante.jpg");
+    background-image: url("../img/estudante.jpg");
     background-size:cover;
     background-repeat: repeat;
     color: #f1f2f6;
